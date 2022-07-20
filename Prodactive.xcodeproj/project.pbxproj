@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED2694D028889B9B00613166 /* lazyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2694CF28889B9B00613166 /* lazyViewController.swift */; };
+		ED2694D228889BD300613166 /* productiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2694D128889BD300613166 /* productiveViewController.swift */; };
+		ED2694D428889BF600613166 /* comfortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2694D328889BF600613166 /* comfortViewController.swift */; };
+		ED2694D628889C8D00613166 /* motivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2694D528889C8D00613166 /* motivationViewController.swift */; };
+		ED2694D828889D1000613166 /* energyLevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2694D728889D1000613166 /* energyLevelsViewController.swift */; };
+		ED2694DA2888A15500613166 /* journalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2694D92888A15500613166 /* journalViewController.swift */; };
 		ED82F3D52887397500E71DE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82F3D42887397500E71DE0 /* AppDelegate.swift */; };
 		ED82F3D72887397500E71DE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82F3D62887397500E71DE0 /* SceneDelegate.swift */; };
 		ED82F3D92887397500E71DE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82F3D82887397500E71DE0 /* ViewController.swift */; };
@@ -17,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED2694CF28889B9B00613166 /* lazyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lazyViewController.swift; sourceTree = "<group>"; };
+		ED2694D128889BD300613166 /* productiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productiveViewController.swift; sourceTree = "<group>"; };
+		ED2694D328889BF600613166 /* comfortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comfortViewController.swift; sourceTree = "<group>"; };
+		ED2694D528889C8D00613166 /* motivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motivationViewController.swift; sourceTree = "<group>"; };
+		ED2694D728889D1000613166 /* energyLevelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = energyLevelsViewController.swift; sourceTree = "<group>"; };
+		ED2694D92888A15500613166 /* journalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalViewController.swift; sourceTree = "<group>"; };
 		ED82F3D12887397500E71DE0 /* Prodactive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prodactive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED82F3D42887397500E71DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED82F3D62887397500E71DE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +74,12 @@
 				ED82F3D62887397500E71DE0 /* SceneDelegate.swift */,
 				ED82F3D82887397500E71DE0 /* ViewController.swift */,
 				ED82F3DA2887397500E71DE0 /* Main.storyboard */,
+				ED2694D92888A15500613166 /* journalViewController.swift */,
+				ED2694D728889D1000613166 /* energyLevelsViewController.swift */,
+				ED2694D528889C8D00613166 /* motivationViewController.swift */,
+				ED2694D328889BF600613166 /* comfortViewController.swift */,
+				ED2694D128889BD300613166 /* productiveViewController.swift */,
+				ED2694CF28889B9B00613166 /* lazyViewController.swift */,
 				ED82F3E02887397800E71DE0 /* Assets.xcassets */,
 				ED82F3E22887397800E71DE0 /* LaunchScreen.storyboard */,
 				ED82F3E52887397800E71DE0 /* Info.plist */,
@@ -141,10 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2694D028889B9B00613166 /* lazyViewController.swift in Sources */,
 				ED82F3DF2887397500E71DE0 /* Prodactive.xcdatamodeld in Sources */,
+				ED2694D628889C8D00613166 /* motivationViewController.swift in Sources */,
+				ED2694D828889D1000613166 /* energyLevelsViewController.swift in Sources */,
 				ED82F3D92887397500E71DE0 /* ViewController.swift in Sources */,
 				ED82F3D52887397500E71DE0 /* AppDelegate.swift in Sources */,
+				ED2694DA2888A15500613166 /* journalViewController.swift in Sources */,
 				ED82F3D72887397500E71DE0 /* SceneDelegate.swift in Sources */,
+				ED2694D228889BD300613166 /* productiveViewController.swift in Sources */,
+				ED2694D428889BF600613166 /* comfortViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
