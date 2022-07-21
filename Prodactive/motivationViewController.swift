@@ -12,6 +12,10 @@ class motivationViewController: UIViewController {
     @IBOutlet weak var alpaca: UIImageView!
     @IBOutlet weak var dog: UIImageView!
     @IBOutlet weak var cats: UIImageView!
+   
+    @IBOutlet weak var sentence: UILabel!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +28,12 @@ class motivationViewController: UIViewController {
         let imageArray = ["alpaca", "dog", "cats"]
         let randomInt = Int.random(in: 0..<3)
         alpaca.image = UIImage(named: imageArray [randomInt])
-        print("This works!")
+        
+        let sentenceArray = ["Read a book", "Facetime your friend", "Listen to your favorite song", "Go for a run"]
+        let randomInt2 = Int.random(in:0..<4)
+        sentence.text = sentenceArray [randomInt2]
+        
+        
     }
     
     

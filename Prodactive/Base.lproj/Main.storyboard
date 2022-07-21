@@ -645,20 +645,20 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="orH-HZ-I1W">
-                                <rect key="frame" x="99" y="402" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="orH-HZ-I1W">
+                                <rect key="frame" x="-14" y="309" width="443" height="333"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tall boi" translatesAutoresizingMaskIntoConstraints="NO" id="xph-zO-k93">
-                                <rect key="frame" x="69" y="383" width="300" height="182"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="alpaca" translatesAutoresizingMaskIntoConstraints="NO" id="xph-zO-k93">
+                                <rect key="frame" x="36" y="309" width="378" height="329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="This Online Group Is Dedicated To Adorable Cat Babushkas (30 Pics)" translatesAutoresizingMaskIntoConstraints="NO" id="aZ2-Wi-AmI">
-                                <rect key="frame" x="69" y="295" width="286" height="767"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cats" translatesAutoresizingMaskIntoConstraints="NO" id="hrd-FX-jpR">
+                                <rect key="frame" x="36" y="313" width="378" height="329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yjz-ZK-7pE">
-                                <rect key="frame" x="150" y="227" width="114" height="31"/>
+                                <rect key="frame" x="150" y="227" width="114" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
@@ -666,6 +666,13 @@
                                     <action selector="imageButton:" destination="ZK0-oE-vgt" eventType="touchUpInside" id="88L-hA-oFS"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Read a book!!" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VuB-PK-yQB">
+                                <rect key="frame" x="140" y="461" width="165" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".SFNS-Regular" family=".AppleSystemUIFont" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LJD-My-MdJ"/>
                         <color key="backgroundColor" red="0.71372549019999998" green="0.84705882349999995" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -673,8 +680,10 @@
                     <navigationItem key="navigationItem" id="pVj-hv-8TZ"/>
                     <connections>
                         <outlet property="alpaca" destination="orH-HZ-I1W" id="6uo-1f-rbM"/>
-                        <outlet property="cats" destination="aZ2-Wi-AmI" id="iqh-P6-YxD"/>
                         <outlet property="dog" destination="xph-zO-k93" id="UdB-NB-tft"/>
+                        <outlet property="sentence" destination="VuB-PK-yQB" id="0df-JU-ekD"/>
+                        <outlet property="sentence1" destination="ZSj-2d-Xm9" id="cL9-ec-Ra4"/>
+                        <outlet property="sentence3" destination="VuB-PK-yQB" id="TJl-Ix-xlt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2bb-io-UTS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -736,8 +745,9 @@
         <segue reference="rud-e9-csK"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Tall boi" width="374" height="600"/>
-        <image name="This Online Group Is Dedicated To Adorable Cat Babushkas (30 Pics)" width="700" height="767"/>
+        <image name="alpaca" width="640" height="636"/>
+        <image name="cats" width="700" height="767"/>
+        <image name="dog" width="374" height="600"/>
         <image name="prodactive" width="278" height="320"/>
         <image name="prodactiveLogo" width="649" height="740"/>
         <namedColor name="AccentColor">
