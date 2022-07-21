@@ -8,14 +8,25 @@
 import UIKit
 
 class motivationViewController: UIViewController {
-
+   
+    @IBOutlet weak var alpaca: UIImageView!
+    @IBOutlet weak var dog: UIImageView!
+    @IBOutlet weak var cats: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+    }
+   
+    @IBAction func Button(_ sender: Any) {
+        let imageArray = ["alpaca", "dog", "cats"]
+        let randomInt = Int.random(in: 0..<3)
+        alpaca.image = UIImage(named: imageArray [randomInt])
+    
     }
     
-
     /*
     // MARK: - Navigation
 
