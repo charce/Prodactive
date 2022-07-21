@@ -20,13 +20,23 @@ class motivationViewController: UIViewController {
         
     }
    
+    @IBAction func imageButton(_ sender: Any) {
+        let imageArray = ["alpaca", "dog", "cats"]
+        let randomInt = Int.random(in: 0..<3)
+        alpaca.image = UIImage(named: imageArray [randomInt])
+        print("This works!")
+    }
+    
+    
+    /*
     @IBAction func Button(_ sender: Any) {
         let imageArray = ["alpaca", "dog", "cats"]
         let randomInt = Int.random(in: 0..<3)
         alpaca.image = UIImage(named: imageArray [randomInt])
     
     }
-    
+    */
+     
     /*
     // MARK: - Navigation
 
