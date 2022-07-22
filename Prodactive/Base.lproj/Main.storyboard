@@ -95,7 +95,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.71372549019999998" green="0.84705882349999995" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.89019607840000003" green="0.95294117649999999" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="hdE-H6-I1e"/>
                 </viewController>
@@ -112,27 +112,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCo-gS-MIL">
-                                <rect key="frame" x="55" y="192" width="339" height="66"/>
+                                <rect key="frame" x="58" y="351" width="284" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="How do you feel today...">
+                                    <fragment content="How do you feel...">
                                         <attributes>
                                             <color key="NSColor" red="0.078431372550000003" green="0.25490196079999999" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="27" name="Avenir-Heavy"/>
+                                            <font key="NSFont" size="30" name="Avenir-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rWl-aW-W2x">
-                                <rect key="frame" x="109" y="305" width="196" height="86"/>
+                                <rect key="frame" x="109" y="440" width="196" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Lazy">
                                             <attributes>
-                                                <font key="NSFont" size="34" name="Avenir-Black"/>
+                                                <font key="NSFont" size="32" name="Avenir-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -143,29 +145,8 @@
                                     <segue destination="IqC-C2-lUP" kind="presentation" id="w0o-tw-HU2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjv-fy-saE">
-                                <rect key="frame" x="109" y="561" width="196" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted">
-                                    <backgroundConfiguration key="background" cornerRadius="18"/>
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Comfort">
-                                            <attributes>
-                                                <font key="NSFont" size="32" name="Avenir-Black"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseForegroundColor" red="0.078431372550000003" green="0.25490196079999999" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                    <color key="baseBackgroundColor" red="0.49803921569999998" green="0.7725490196" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="xKw-xW-vdx" kind="presentation" id="dne-yP-Fts"/>
-                                </connections>
-                            </button>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cZf-Kw-4Ql">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cZf-Kw-4Ql">
                                 <rect key="frame" x="-13" y="0.0" width="427" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                                 <items>
@@ -179,14 +160,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipj-Gy-fPG">
-                                <rect key="frame" x="102" y="433" width="211" height="74"/>
+                                <rect key="frame" x="109" y="561" width="192" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Productive">
                                             <attributes>
-                                                <font key="NSFont" size="34" name="Avenir-Black"/>
+                                                <font key="NSFont" size="32" name="Avenir-Medium"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -209,9 +190,48 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="What day is the schedule for?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="153-y0-9SD">
+                                <rect key="frame" x="80" y="144" width="254" height="105"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.20000000000000001" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AqS-dq-R8W">
+                                <rect key="frame" x="100" y="280" width="214" height="34"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjv-fy-saE">
+                                <rect key="frame" x="109" y="681" width="196" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <backgroundConfiguration key="background" cornerRadius="18"/>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Comfort">
+                                            <attributes>
+                                                <font key="NSFont" size="32" name="Avenir-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.078431372550000003" green="0.25490196079999999" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.49803921569999998" green="0.7725490196" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="xKw-xW-vdx" kind="presentation" id="dne-yP-Fts"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Fbf-fb-D3E"/>
-                        <color key="backgroundColor" red="0.71372549019999998" green="0.84705882349999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.89019607840000003" green="0.95294117649999999" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Fbf-fb-D3E" firstAttribute="trailing" secondItem="AqS-dq-R8W" secondAttribute="trailing" constant="100" id="15D-5M-cPb"/>
+                            <constraint firstItem="153-y0-9SD" firstAttribute="top" secondItem="cZf-Kw-4Ql" secondAttribute="bottom" constant="100" id="3Lp-dc-rgk"/>
+                            <constraint firstItem="153-y0-9SD" firstAttribute="leading" secondItem="Fbf-fb-D3E" secondAttribute="leading" constant="80" id="OCU-Pc-08J"/>
+                            <constraint firstItem="AqS-dq-R8W" firstAttribute="top" secondItem="153-y0-9SD" secondAttribute="bottom" constant="25" id="mfp-Hi-bLO"/>
+                            <constraint firstItem="Fbf-fb-D3E" firstAttribute="trailing" secondItem="153-y0-9SD" secondAttribute="trailing" constant="80" id="odC-hd-hhQ"/>
+                            <constraint firstItem="AqS-dq-R8W" firstAttribute="leading" secondItem="Fbf-fb-D3E" secondAttribute="leading" constant="100" id="zdn-LE-l58"/>
+                        </constraints>
                     </view>
                     <toolbarItems>
                         <barButtonItem id="bEG-xd-TIs"/>
@@ -219,6 +239,9 @@
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="FKM-mK-Zbg"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="textField" destination="AqS-dq-R8W" id="C0o-df-9rH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hJ6-NC-yMT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -312,7 +335,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fum-p3-XYo"/>
-                        <color key="backgroundColor" red="0.71372549019999998" green="0.84705882349999995" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.89019607840000003" green="0.95294117649999999" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="vKV-7R-K9m"/>
                 </viewController>
@@ -667,7 +690,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Read a book!!" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VuB-PK-yQB">
-                                <rect key="frame" x="140" y="461" width="165" height="33"/>
+                                <rect key="frame" x="143" y="685" width="165" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name=".SFNS-Regular" family=".AppleSystemUIFont" pointSize="29"/>
                                 <nil key="textColor"/>
@@ -675,15 +698,13 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LJD-My-MdJ"/>
-                        <color key="backgroundColor" red="0.71372549019999998" green="0.84705882349999995" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.89019607840000003" green="0.95294117649999999" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="pVj-hv-8TZ"/>
                     <connections>
                         <outlet property="alpaca" destination="orH-HZ-I1W" id="6uo-1f-rbM"/>
                         <outlet property="dog" destination="xph-zO-k93" id="UdB-NB-tft"/>
                         <outlet property="sentence" destination="VuB-PK-yQB" id="0df-JU-ekD"/>
-                        <outlet property="sentence1" destination="ZSj-2d-Xm9" id="cL9-ec-Ra4"/>
-                        <outlet property="sentence3" destination="VuB-PK-yQB" id="TJl-Ix-xlt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2bb-io-UTS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -699,14 +720,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kw-BP-p6l">
-                                <rect key="frame" x="27" y="99" width="361" height="37"/>
+                                <rect key="frame" x="56" y="99" width="303" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Today's Productive Schedule">
+                                    <fragment content="Productive Schedule for">
                                         <attributes>
                                             <color key="NSColor" red="0.078431372550000003" green="0.25490196079999999" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="27" name="Avenir-Heavy"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -729,20 +750,31 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cdg-qq-LPK">
+                                <rect key="frame" x="62" y="144" width="290" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="27"/>
+                                <color key="textColor" red="0.0" green="0.20000000000000001" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3LQ-Gn-5lC"/>
                         <color key="backgroundColor" red="0.71372549019999998" green="0.84705882349999995" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="Cdg-qq-LPK" id="ybS-tg-iGP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ola-W6-rfe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="688" y="883"/>
+            <point key="canvasLocation" x="686.95652173913049" y="882.58928571428567"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sq4-NU-6mz"/>
-        <segue reference="UGY-SI-iId"/>
-        <segue reference="rud-e9-csK"/>
+        <segue reference="JJE-3u-elj"/>
+        <segue reference="sHG-el-m2e"/>
+        <segue reference="OWV-Xp-mP2"/>
+        <segue reference="3bD-rx-vFx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="alpaca" width="640" height="636"/>
