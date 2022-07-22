@@ -975,10 +975,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGp-GL-Y08">
-                                <rect key="frame" x="72" y="101" width="278" height="37"/>
+                                <rect key="frame" x="72" y="101" width="287" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="MOTIVATION">
+                                    <fragment content="BRAIN BREAK">
                                         <attributes>
                                             <color key="NSColor" red="0.078431372550000003" green="0.25490196079999999" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="43" name="Avenir-Heavy"/>
@@ -1071,8 +1071,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="sHG-el-m2e"/>
-        <segue reference="n0Q-Ht-Iag"/>
-        <segue reference="yf1-H9-jmw"/>
+        <segue reference="OWV-Xp-mP2"/>
+        <segue reference="rud-e9-csK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="alpaca" width="640" height="636"/>
