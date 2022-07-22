@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "My Brother And I Have Pet Frogs And They Don't Mind If You Put Stuff On Them So We 3D Printed Little Hats.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
