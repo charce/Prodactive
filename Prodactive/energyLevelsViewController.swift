@@ -54,11 +54,17 @@ class energyLevelsViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        if segue.destination is productiveViewController {
+        if segue.destination is lazyViewController {
+            let vc = segue.destination as? lazyViewController
+            vc?.date = textField.text ?? ""
+        }
+        else if segue.destination is productiveViewController {
             let vc = segue.destination as? productiveViewController
             vc?.date = textField.text ?? ""
-            
+        }
+        else if segue.destination is comfortViewController {
+            let vc = segue.destination as? comfortViewController
+            vc?.date = textField.text ?? ""
         }
     }
     

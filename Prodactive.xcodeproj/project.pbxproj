@@ -12,7 +12,6 @@
 		ED2694D428889BF600613166 /* comfortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2694D328889BF600613166 /* comfortViewController.swift */; };
 		ED2694D628889C8D00613166 /* motivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2694D528889C8D00613166 /* motivationViewController.swift */; };
 		ED2694D828889D1000613166 /* energyLevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2694D728889D1000613166 /* energyLevelsViewController.swift */; };
-		ED2694DA2888A15500613166 /* journalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2694D92888A15500613166 /* journalViewController.swift */; };
 		ED82F3D52887397500E71DE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82F3D42887397500E71DE0 /* AppDelegate.swift */; };
 		ED82F3D72887397500E71DE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82F3D62887397500E71DE0 /* SceneDelegate.swift */; };
 		ED82F3D92887397500E71DE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82F3D82887397500E71DE0 /* ViewController.swift */; };
@@ -20,6 +19,10 @@
 		ED82F3DF2887397500E71DE0 /* Prodactive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED82F3DD2887397500E71DE0 /* Prodactive.xcdatamodeld */; };
 		ED82F3E12887397800E71DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED82F3E02887397800E71DE0 /* Assets.xcassets */; };
 		ED82F3E42887397800E71DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED82F3E22887397800E71DE0 /* LaunchScreen.storyboard */; };
+		EDA05466288A90B10061AE5A /* JournalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA05465288A90B10061AE5A /* JournalCell.swift */; };
+		EDA05468288A90C70061AE5A /* JournalTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA05467288A90C70061AE5A /* JournalTableView.swift */; };
+		EDA0546A288A90E50061AE5A /* JournalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA05469288A90E50061AE5A /* JournalDetailViewController.swift */; };
+		EDA4AD18288A94B2008195E8 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4AD17288A94B2008195E8 /* Journal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +31,6 @@
 		ED2694D328889BF600613166 /* comfortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comfortViewController.swift; sourceTree = "<group>"; };
 		ED2694D528889C8D00613166 /* motivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motivationViewController.swift; sourceTree = "<group>"; };
 		ED2694D728889D1000613166 /* energyLevelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = energyLevelsViewController.swift; sourceTree = "<group>"; };
-		ED2694D92888A15500613166 /* journalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalViewController.swift; sourceTree = "<group>"; };
 		ED82F3D12887397500E71DE0 /* Prodactive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prodactive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED82F3D42887397500E71DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED82F3D62887397500E71DE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +40,10 @@
 		ED82F3E02887397800E71DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED82F3E32887397800E71DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED82F3E52887397800E71DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA05465288A90B10061AE5A /* JournalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalCell.swift; sourceTree = "<group>"; };
+		EDA05467288A90C70061AE5A /* JournalTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableView.swift; sourceTree = "<group>"; };
+		EDA05469288A90E50061AE5A /* JournalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailViewController.swift; sourceTree = "<group>"; };
+		EDA4AD17288A94B2008195E8 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,10 @@
 		ED82F3C82887397500E71DE0 = {
 			isa = PBXGroup;
 			children = (
+				EDA05465288A90B10061AE5A /* JournalCell.swift */,
+				EDA05467288A90C70061AE5A /* JournalTableView.swift */,
+				EDA05469288A90E50061AE5A /* JournalDetailViewController.swift */,
+				EDA4AD17288A94B2008195E8 /* Journal.swift */,
 				ED82F3D32887397500E71DE0 /* Prodactive */,
 				ED82F3D22887397500E71DE0 /* Products */,
 			);
@@ -74,7 +84,6 @@
 				ED82F3D62887397500E71DE0 /* SceneDelegate.swift */,
 				ED82F3D82887397500E71DE0 /* ViewController.swift */,
 				ED82F3DA2887397500E71DE0 /* Main.storyboard */,
-				ED2694D92888A15500613166 /* journalViewController.swift */,
 				ED2694D728889D1000613166 /* energyLevelsViewController.swift */,
 				ED2694D528889C8D00613166 /* motivationViewController.swift */,
 				ED2694D328889BF600613166 /* comfortViewController.swift */,
@@ -160,12 +169,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED2694D028889B9B00613166 /* lazyViewController.swift in Sources */,
+				EDA05468288A90C70061AE5A /* JournalTableView.swift in Sources */,
 				ED82F3DF2887397500E71DE0 /* Prodactive.xcdatamodeld in Sources */,
 				ED2694D628889C8D00613166 /* motivationViewController.swift in Sources */,
+				EDA05466288A90B10061AE5A /* JournalCell.swift in Sources */,
 				ED2694D828889D1000613166 /* energyLevelsViewController.swift in Sources */,
 				ED82F3D92887397500E71DE0 /* ViewController.swift in Sources */,
+				EDA0546A288A90E50061AE5A /* JournalDetailViewController.swift in Sources */,
 				ED82F3D52887397500E71DE0 /* AppDelegate.swift in Sources */,
-				ED2694DA2888A15500613166 /* journalViewController.swift in Sources */,
+				EDA4AD18288A94B2008195E8 /* Journal.swift in Sources */,
 				ED82F3D72887397500E71DE0 /* SceneDelegate.swift in Sources */,
 				ED2694D228889BD300613166 /* productiveViewController.swift in Sources */,
 				ED2694D428889BF600613166 /* comfortViewController.swift in Sources */,

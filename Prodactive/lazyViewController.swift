@@ -9,10 +9,14 @@ import UIKit
 
 class lazyViewController: UIViewController {
 
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    var date: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        dateLabel.text = date
     }
     
 
