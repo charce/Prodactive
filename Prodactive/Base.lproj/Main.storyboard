@@ -933,22 +933,6 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="orH-HZ-I1W">
-                                <rect key="frame" x="-14" y="309" width="443" height="333"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="alpaca" translatesAutoresizingMaskIntoConstraints="NO" id="xph-zO-k93">
-                                <rect key="frame" x="18" y="309" width="378" height="329"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cats" translatesAutoresizingMaskIntoConstraints="NO" id="hrd-FX-jpR">
-                                <rect key="frame" x="16" y="309" width="378" height="329"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="panda" translatesAutoresizingMaskIntoConstraints="NO" id="2c8-ef-71k">
-                                <rect key="frame" x="18" y="309" width="378" height="329"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yjz-ZK-7pE">
                                 <rect key="frame" x="135" y="219" width="144" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -967,13 +951,6 @@
                                     <action selector="imageButton:" destination="ZK0-oE-vgt" eventType="touchUpInside" id="88L-hA-oFS"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Read a book!!" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VuB-PK-yQB">
-                                <rect key="frame" x="129" y="690" width="165" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name=".SFNS-Regular" family=".AppleSystemUIFont" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGp-GL-Y08">
                                 <rect key="frame" x="72" y="101" width="287" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -988,8 +965,15 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="birds" translatesAutoresizingMaskIntoConstraints="NO" id="WaM-Pr-ALQ">
-                                <rect key="frame" x="18" y="313" width="378" height="329"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Read a book!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VuB-PK-yQB">
+                                <rect key="frame" x="20" y="690" width="370" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".SFNS-Regular" family=".AppleSystemUIFont" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="alpaca" translatesAutoresizingMaskIntoConstraints="NO" id="xph-zO-k93">
+                                <rect key="frame" x="18" y="320" width="378" height="329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -998,11 +982,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="pVj-hv-8TZ"/>
                     <connections>
-                        <outlet property="alpaca" destination="orH-HZ-I1W" id="6uo-1f-rbM"/>
-                        <outlet property="birds" destination="WaM-Pr-ALQ" id="2SR-4Q-cQN"/>
-                        <outlet property="cats" destination="WaM-Pr-ALQ" id="sDx-jv-ktX"/>
+                        <outlet property="alpaca" destination="xph-zO-k93" id="Fm4-5g-q9J"/>
                         <outlet property="dog" destination="xph-zO-k93" id="UdB-NB-tft"/>
-                        <outlet property="panda" destination="2c8-ef-71k" id="VGg-Xb-ZFW"/>
                         <outlet property="sentence" destination="VuB-PK-yQB" id="0df-JU-ekD"/>
                     </connections>
                 </viewController>
@@ -1070,17 +1051,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sHG-el-m2e"/>
-        <segue reference="OWV-Xp-mP2"/>
+        <segue reference="sq4-NU-6mz"/>
+        <segue reference="UGY-SI-iId"/>
         <segue reference="rud-e9-csK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="alpaca" width="640" height="636"/>
-        <image name="birds" width="430" height="430"/>
-        <image name="cats" width="700" height="767"/>
         <image name="comfort" width="512" height="512"/>
-        <image name="dog" width="374" height="600"/>
-        <image name="panda" width="700" height="693"/>
         <image name="prodactive" width="278" height="320"/>
         <image name="sleep" width="512" height="512"/>
     </resources>
